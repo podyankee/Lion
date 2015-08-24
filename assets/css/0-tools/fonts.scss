@@ -1,1 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Fira+Sans:400,400italic);
+@include font-face("RobotoRegular", "0-tools/fonts/RobotoRegular/RobotoRegular", normal, $file-formats: eot woff ttf);
+@include font-face("RobotoBold", "0-tools/fonts/RobotoBold/RobotoBold", bold, $file-formats: eot woff ttf);
+@include font-face("CleanvertisingLight", "0-tools/fonts/CleanvertisingLight/CleanvertisingLight", 300, $file-formats: eot woff ttf);
+@include font-face("CleanvertisingLight", "0-tools/fonts/CleanvertisingLight/CleanvertisingLight", 300, $file-formats: eot woff ttf);
