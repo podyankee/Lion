@@ -26,10 +26,12 @@ body{
 
 /* Headers*/
 
-.header__name, .header__disc {
+.header__name, .header__disc,.sub__zag {
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: 300;
+}
+.header__name, .header__disc {
 	text-shadow: 1px 1px 3px #222 ;
 	margin: 40px 0;
 }
@@ -42,6 +44,12 @@ body{
 }
 .box,.sub  {
 	width: 50%;
+}
+
+@keyframes puzo {
+	0%{transform: scale(1);}
+	50%{transform: scale(1.1);}
+	100%{transform: scale(1);}
 }
 
 

@@ -7,11 +7,13 @@ header
 			.header__bottom.crownfon
 				.mid
 					.sub.right
-						form(action="#")
-							.sub__zag Пройти обучение:  
-							div
-							input(type="mail", placeholder="Введите свой e-mail... ")
-							p и нажмите на кнопку ниже
-							input(type="submit", value="Забрать систему")
+						.sub__border-form
+							form.sub__form(action="#")
+								.sub__zag Пройти обучение:  
+								div
+									input.sub__mail(type="mail", placeholder="Введите свой e-mail... ")
+								p.sub__p и нажмите на кнопку ниже
+								div
+									input.sub__submit(type="submit", value="Забрать систему")
 					.box.left 
 						img.box__img(src="assets/img/lev.png", alt="Lion sistem cover")
