@@ -569,10 +569,11 @@ body {
   background: url(../img/grayfon.png); }
 
 /* Headers*/
-.header__name, .header__disc, .sub__zag {
+.header__name, .header__disc, .sub__zag, .timer__header, .content__header, .content__zak {
   text-align: center;
   text-transform: uppercase;
-  font-weight: 300; }
+  font-weight: 300;
+  color: #111; }
 
 .header__name, .header__disc {
   text-shadow: 1px 1px 3px #222;
@@ -609,11 +610,91 @@ body {
     -webkit-transform: scale(1);
             transform: scale(1); } }
 
+.timer {
+  text-align: center;
+  margin: 40px 0; }
+
+.content {
+  padding: 0 0 80px 0; }
+
+.orange {
+  color: #ff8a00; }
+
+.yellow {
+  color: #ffc000; }
+
+.shadow-light {
+  text-shadow: 1px 1px 2px #ccc; }
+
+.countdownHolder {
+  margin: 0 auto;
+  font: 30px/1.5 Tahoma, Arial, Helvetica, sans-serif;
+  text-align: center;
+  letter-spacing: -3px; }
+
+.position {
+  display: inline-block;
+  height: 1.6em;
+  overflow: hidden;
+  position: relative;
+  width: 1.05em; }
+
+.digit {
+  position: absolute;
+  display: block;
+  width: 1em;
+  background-color: #AA0000;
+  border-radius: 0.2em;
+  text-align: center;
+  color: #fff;
+  letter-spacing: -1px; }
+
+.digit.static {
+  box-shadow: 1px 1px 1px rgba(4, 4, 4, 0.35);
+  background-image: linear-gradient(bottom, #AA0000 50%, #B50000 50%);
+  background-image: -webkit-linear-gradient(bottom, #AA0000 50%, #B50000 50%);
+  background-image: -ms-linear-gradient(bottom, #AA0000 50%, #B50000 50%);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.5, #AA0000), color-stop(0.5, #B50000)); }
+
+/**
+ * You can use these classes to hide parts
+ * of the countdown that you don't need.
+ */
+.countDays {
+  /* display:none !important;*/ }
+
+.countDiv0 {
+  /* display:none !important;*/ }
+
+.countDiv {
+  display: inline-block;
+  width: 16px;
+  height: 1.6em;
+  position: relative; }
+
+.countDiv:before,
+.countDiv:after {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-color: #444;
+  border-radius: 50%;
+  left: 50%;
+  margin-left: -3px;
+  top: 0.5em;
+  box-shadow: 1px 1px 1px rgba(4, 4, 4, 0.5);
+  content: ''; }
+
+.countDiv:after {
+  top: 0.9em; }
+
+#note2, #note3, #note4, #note5, #note6 {
+  font-weight: bold; }
+
 .header__name {
   font-size: 90px;
   line-height: 90px;
   text-align: right;
-  color: #ffc000;
   margin-bottom: 200px;
   padding: 0 140px 0 0; }
 
@@ -688,3 +769,21 @@ body {
     background: #00778d;
     text-shadow: 1px 1px 3px #005b6c;
     box-shadow: 0 0 3px #9f7300; }
+
+.timer__header {
+  font-size: 20px;
+  margin: 0 0 20px;
+  font-weight: 400; }
+
+.content__header {
+  font-size: 44px;
+  background: #ffc000;
+  line-height: 44px;
+  padding: 28px;
+  color: #111;
+  margin: 0 0 80px 0; }
+
+.content__zak {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 400; }

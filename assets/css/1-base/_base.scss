@@ -26,10 +26,11 @@ body{
 
 /* Headers*/
 
-.header__name, .header__disc,.sub__zag {
+.header__name, .header__disc,.sub__zag, .timer__header, .content__header, .content__zak {
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: 300;
+	color: #111;
 }
 .header__name, .header__disc {
 	text-shadow: 1px 1px 3px #222 ;
@@ -51,6 +52,25 @@ body{
 	50%{transform: scale(1.1);}
 	100%{transform: scale(1);}
 }
+.timer {
+	text-align: center;
+	margin: 40px 0;
+}
 
+.content {
+	padding: 0 0 80px 0;
+}
+
+.orange {
+	color: #ff8a00;
+}
+	
+.yellow {
+	color: #ffc000;
+}
+
+.shadow-light {
+	text-shadow: 1px 1px 2px #ccc;
+}
 
 
