@@ -11,3 +11,172 @@
 	line-height: 40px
 	font-weight: 400
 	
+.anons
+	width: 48%
+	margin-bottom: 80px
+	cursor: pointer
+	&:hover
+		.anons__num
+			transform: rotate(360deg)
+			box-shadow: 0 0 3px #bbb
+		
+		.anons__img
+			top: 0
+			opacity: 0.9
+
+.anons__fon
+		background: #fff
+		+clearfix
+		height: 230px
+		overflow: hidden
+		box-shadow: 1px 1px 3px #ccc
+
+.anons__number
+	width: 20%
+	height: 228px
+
+.anons__num
+	width: 60px
+	height: 60px
+	background: #ffc000
+	border: 2px solid #fff
+	border-radius:  50%
+	box-shadow: 1px 1px 3px #bbb
+	margin: 82px auto 0
+	font-size: 44px
+	line-height: 60px
+	transition: 0.5s
+
+.anons__nbor
+	border: 1px solid #bbb
+	border-right: none
+	height: 227px
+	padding-top: 1px
+
+.anons__content
+	width: 80%
+	position: relative
+	height: 230px
+
+.anons__text
+	padding: 40px 40px 0 40px
+	height: 188px
+	border: 1px solid #bbb
+
+.anons__zag
+	text-align: left
+	font-size: 30px
+	font-weight: 400
+	margin-bottom: 20px
+	line-height: 30px 
+
+.anons__p
+	font-size: 17px
+
+.anons__img
+	position: absolute
+	top: 220px 
+	transition: 0.5s
+	width: 100%
+
+.anons__pic
+	vertical-align: middle
+	width: 100%
+	height: auto
+
+.mid
+	+clearfix
+
+.sell
+	padding: 40px 0 0
+
+.sell__box
+	width: 40%
+
+.sell__text
+	width: 60%
+
+.sell__zag
+	font-weight: 400
+	font-size: 30px
+	color: #fff
+
+.sell__a 
+	text-align: center
+	margin: 50px 0
+
+.sell__button
+	text-decoration: none
+	background: #d7d7d7 
+	padding: 10px 20px
+	font-size: 30px
+	line-height: 30px
+	box-shadow: 2px 2px 5px #222 
+	border-radius: 3px
+	&:hover
+		background: #ffc000
+	transition: .5s
+	
+.anons__ico
+	height: 100%
+	background: no-repeat center
+	background-size: 65%
+
+	&:hover
+		background-size: 75%
+		transition: .5s 
+		
+	
+.ico1
+	background-image: url(../img/rocket.svg)
+.ico2
+	background-image: url(../img/glove.svg)
+.ico3
+	background-image: url(../img/lightning.svg) 
+.ico4
+	background-image: url(../img/bookmark.svg) 
+.ico5
+	background-image: url(../img/sword.svg) 
+.ico6
+	background-image: url(../img/diamond.svg) 
+
+.circle
+	width: 228px
+	height: 228px
+	background: #fff
+	border: 3px double #bbb
+	border-radius: 50% 
+	transition: .3s
+	cursor: pointer
+	text-align: center
+	display: inline-block
+	margin: 20px
+	padding: 0
+	line-height: 1em
+	vertical-align: top
+
+	&:hover
+		border: 3px solid #777
+		box-shadow: 0 0 0 4px #999
+		background: #fdffc4
+
+
+.circle__step1,
+.circle__step2,
+.circle__step3,
+.circle__step4,
+.circle__step5
+	padding: 120px 30px 0 30px
+	background: url(../img/mail.png) no-repeat center 40px
+
+.circle__step2
+	background: url(../img/check.png) no-repeat center 20px
+
+.circle__step3
+	background: url(../img/reply.png) no-repeat center 20px
+
+.circle__step4
+	background: url(../img/archive.png) no-repeat center 20px
+
+.circle__step5
+	background: url(../img/flag.png) no-repeat center 20px

@@ -1,0 +1,48 @@
+.menu
+	background: rgba(0,0,0,0.7)
+	transition: background 0.5s
+	&:hover
+		background: rgba(0,0,0,0.9)
+	width: 100%
+	z-index: 999
+
+.menu__ul
+	list-style: none
+	margin: 0
+	padding: 0 0 0 70px
+	text-align: center
+	text-transform: uppercase
+	background: url(../img/favicon/apple-touch-icon.png) no-repeat left center
+
+.menu__li
+	display: inline-block
+	line-height: 70px
+	margin: 0 20px
+	text-shadow: 1px 1px 2px #000
+	font-weight: 300
+
+.menu__a
+	text-decoration: none
+	color: #bbb
+	transition: 0.5s 
+
+	&:hover
+		color: #fff
+
+.active .menu__a
+	color: #fff
+	text-shadow: 0 0 7px #fff
+
+.default
+	position: absolute
+	display: none
+
+.fixed
+	position: fixed
+	top: 0
+
+.slicknav_menu
+	display: none
+	position: fixed
+	width: 100%
+	background: #4c4c4c url(../img/favicon/apple-touch-icon.png) no-repeat 20px center

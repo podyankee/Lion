@@ -26,13 +26,15 @@ body{
 
 /* Headers*/
 
-.header__name, .header__disc,.sub__zag, .timer__header, .content__header, .content__zak {
+.header__name, .header__disc,.sub__zag, .timer__header, .content__header, .content__zak, .anons__zag, .anons__num, 
+.sell__zag, .sell__button{
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: 300;
 	color: #111;
+	line-height: 1.1em;
 }
-.header__name, .header__disc {
+.header__name, .header__disc, .sell__zag {
 	text-shadow: 1px 1px 3px #222 ;
 	margin: 40px 0;
 }
@@ -69,8 +71,37 @@ body{
 	color: #ffc000;
 }
 
+.white {
+	color: #fff;
+}
+
 .shadow-light {
 	text-shadow: 1px 1px 2px #ccc;
 }
+
+.anons:nth-child(even) {
+	float: right;
+	margin-left: 20px;
+}
+.anons:nth-child(odd) {
+	float: left;
+	margin-right: 20px;
+}
+.tac {
+	text-align: center;
+}
+	
+.del05 {
+	animation-delay: .5s;
+}
+
+.del075 {
+	animation-delay: .75s;
+}
+	
+.del1 {
+	animation-delay: 1s;
+}
+	
 
 
